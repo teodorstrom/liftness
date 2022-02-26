@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fjalla+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+/* navbar and logo */
+
+#nav-bar {
+    background-color: blue;
+}
+
+#nav-bar li {
+    float: right;
+    margin-right: 100px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+#logo {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}
