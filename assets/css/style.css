@@ -134,8 +134,19 @@ body {
     font-size: 36px;
     text-align: center;
 }
-#home-image video {
-    width: 200%;
-    opacity: 0.3;
+
+.column {
+    width: 250px;
+    height: 455px;
+    border: 1px solid #E56B6F;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
 }
 
+.price-row {
+    height: 500px;
+    width: 90%;
+    border: 1px solid #fff;
+    margin-left: 75px;
+}
