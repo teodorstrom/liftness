@@ -6,12 +6,14 @@
 
 body {
     font-family: 'Arimo', sans-serif;
+    background-color: #355070;
 }
 
 /* navbar and logo */
 
 #nav-bar {
-    background-color: blue;
+    height: 100px;
+    width: 100%;
 }
 
 #nav-bar li {
@@ -20,7 +22,14 @@ body {
     color: #fff;
     text-decoration: none;
     list-style-type: none;
-    margin-top: 15px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+#nav-bar li:hover {
+    color: #E56B6F;
 }
 
 #logo {
@@ -28,4 +37,13 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 28px;
+    width: 200px;
+    display: inline-block;
+    color: #E56B6F;
+    height: 100px;
+    margin-left: 550px;
+}
+
+#logo h1 {
+    text-align: right;
 }
