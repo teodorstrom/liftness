@@ -68,7 +68,7 @@ body {
     display: inline-block;
     color: #E56B6F;
     height: 100px;
-    margin-left: 570px;
+    margin-left: 550px;
 }
 
 #logo h1 {
@@ -81,6 +81,7 @@ body {
     width: 100%;
     height: 600px;
     overflow: hidden;
+    
 }
 
 #home-image {
@@ -93,6 +94,7 @@ body {
     width: 80%;
     margin-left: 105px;
     margin-top: 50px;
+    border-radius: 10px;
 }
 
 #home-header {
@@ -115,3 +117,25 @@ body {
     color: #fff;
     letter-spacing: 2px;
 }
+
+/* membership page */
+
+#membership-container {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+#member-header {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #E56B6F;
+    font-size: 36px;
+    text-align: center;
+}
+#home-image video {
+    width: 200%;
+    opacity: 0.3;
+}
+
