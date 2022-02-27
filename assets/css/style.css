@@ -136,6 +136,8 @@ body {
     text-align: center;
 }
 
+/* price row */
+
 .column {
     width: 20%;
     height: 455px;
@@ -151,8 +153,12 @@ body {
     margin-top: 10px;
     font-size: 30px;
     letter-spacing: 2px;
-    color: #E56B6F;
-    
+    color: #E56B6F;   
+}
+
+.column img {
+    width: 100%;
+    margin-top: 5px;
 }
 
 .price-row {
@@ -162,4 +168,31 @@ body {
     background-color: #466b97;
     border-radius: 40px;
     margin-top: 55px;
+}
+
+.included-list {
+    margin-left: 25px;
+    color: #E56B6F;
+    line-height: 1em;
+    margin-top: 15px;
+}
+
+.member-btn {
+    background-color: transparent;
+    border: 1px solid #E56B6F;
+    width: 100px;
+    height: 35px;
+    color: #E56B6F;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+    margin-left: 87px;
+    margin-top: 25px;
+}
+
+.member-btn:hover {
+    cursor: pointer;
+    background-color: #E56B6F;
+    color: #355070;
 }
