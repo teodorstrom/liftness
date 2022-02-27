@@ -21,37 +21,38 @@ body {
     width: 100%;
 }
 
-#nav-bar li {
+#nav-bar li a {
     float: right;
     margin-right: 50px;
     color: #fff;
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 60px;
     letter-spacing: 2px;
     transition: 0.3s;
 }
 
-#nav-bar li:hover {
+#nav-bar li a:hover {
     color: #E56B6F;
 }
 
 #signup-btn {
     display: inline;
     float: right;
-    margin-top: 32px;
     background-color: transparent;
     border: 1px solid #E56B6F;
     font-size: 85%;
     width: 100px;
     height: 35px;
-    margin-right: 65px;
     color: #E56B6F;
     text-transform: uppercase;
     border-radius: 6px;
     transition: 0.3s;
     font-weight: bold;
+    text-align: center;
+    margin-right: 65px;
+    margin-top: 50px;
 }
 
 #signup-btn:hover {
