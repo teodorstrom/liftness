@@ -4,48 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Liftness | Gym, spa and restaurant | Find us in Dublin, Belfast and Cork.">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/d629ec4993.js" crossorigin="anonymous"></script>
     <title>Liftness</title>
 </head>
 <body>
     <header>
-        <nav id="nav-bar">
-            <form action="https://google.com/" target="_blank">
-                <input type="submit" value="sign up" id="signup-btn">
-            </form>
-            <ul>
+        <nav>
+            <div class="logo">
+                <h1><a href="index.html" id="logo-link">Liftness</a></h1>
+                <p>Spa and resturant</p>
+            </div>
+            <ul id="nav-bar">
                 <li>
-                    <a href="#">About us</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Memberships</a>
                     <a href="index.html" class="active">Home</a>
                 </li>
+                <li>
+                    <a href="#member-header">Memberships</a>
+                </li>
+                <li>
+                    <a href="#">Restaurant</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <form action="https://google.com/" target="_blank" id="signup-form">
+                        <input type="submit" value="sign up" id="signup-btn">
+                    </form>
+                </li>
             </ul>
-            <a href="index.html" id="logo">
-                <h1>Liftness<i class="fas fa-dumbbell"></i> Gym</h1>
-            </a>
         </nav>
     </header>
     <section id="home-container">
         <span id="home-header">
-            <h2>This is not your typical gym</h2>
-            <p>Gym, spa and restaurant</p>
+            <div>
+                <h2>This is not your typical gym</h2>
+                <p>Gym, spa and restaurant</p>
+            </div>
         </span>
         <span id="home-image">
-            <img src="assets/images/home-pic.jpg" alt="man pushing steel frame with pile of weight plates">
+            <div>
+                <img src="assets/images/home-pic.jpg" alt="A man and a woman excercising with ropes">
+            </div>
         </span>
     </section>
         <section id="membership-container">
             <span id="member-header">
-                <h2>Memberships</h2>
+                <div>
+                    <h2>Memberships</h2>
+                </div>
             </span>
             <div class="price-row">
                 <div class="column">
                     <h3>SILVER
                         <i class="fas fa-award"></i>
                     </h3>
-                    <img src="/assets/images/silver-row.jpg" alt="A man jogging in the gym">
+                    <img src="assets/images/silver-row.jpg" alt="A man jogging in the gym">
                     <ul>
                         <li class="included-list">Gym access</li>
                         <li class="included-list">Shower and chaning area</li>
@@ -60,7 +76,7 @@
                     <h3>GOLD
                         <i class="fas fa-award"></i>
                     </h3>
-                    <img src="/assets/images/gold-row.jpg" alt="A chef with dishes">
+                    <img src="assets/images/gold-row.jpg" alt="A chef with dishes">
                     <ul>
                         <li class="included-list">Gym Access</li>
                         <li class="included-list">Shower and cleaning area</li>
@@ -75,7 +91,7 @@
                     <h3>PLATINUM
                         <i class="fas fa-award"></i>
                     </h3>
-                    <img src="/assets/images/platinum-row.jpg" alt="A woman and a man bathing in spa">
+                    <img src="assets/images/platinum-row.jpg" alt="A woman and a man bathing in spa">
                     <ul>
                         <li class="included-list">Gym Access</li>
                         <li class="included-list">Shower and cleaning area</li>
