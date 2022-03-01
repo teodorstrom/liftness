@@ -17,7 +17,8 @@ nav {
 
 #nav-bar {
     float: right;
-    padding: 20px 25px;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 
 #nav-bar .active {
@@ -26,6 +27,7 @@ nav {
 
 #nav-bar li {
     display: inline-block;
+    vertical-align: middle;
 }
 
 #nav-bar li a {
@@ -45,7 +47,7 @@ nav {
     display: inline-block;
 }
 
-#signup-btn {
+#contact-btn {
     background-color: transparent;
     border: 1px solid #E56B6F;
     font-size: 85%;
@@ -58,7 +60,7 @@ nav {
     font-weight: bold;
 }
 
-#signup-btn:hover {
+#contact-btn:hover {
     color: #355070;
     background-color: #E56B6F;
     cursor: pointer;
@@ -66,7 +68,8 @@ nav {
 
 .logo {
     display: inline-block;
-    padding-left: 25px;
+    padding-left: 30px;
+    padding-top: 17.5px;
 }
 
 #logo-link {
@@ -90,18 +93,19 @@ nav {
 
 #home-container {
     width: 100%;
-    height: 600px;
     overflow: hidden;
+    margin-bottom: 100px;
 }
 
 #home-container span {
-    margin-top: 25px;
+    padding-top: 25px;
 }
 
 #home-image {
     width: 50%;
     height: 500px;
     float: left;
+    border-radius: 20%;
 }
 
 #home-image img {
@@ -122,7 +126,7 @@ nav {
     letter-spacing: 2px;
     color: #E56B6F;
     font-size: 63px;
-    margin-top: 180px;
+    padding-top: 180px;
 }
 
 #home-header p {
@@ -130,6 +134,25 @@ nav {
     font-size: 18px;
     color: #fff;
     letter-spacing: 2px;
+}
+
+#getstarted-btn {
+    background-color: transparent;
+    border: 1px solid #E56B6F;
+    font-size: 85%;
+    width: 100px;
+    height: 35px;
+    color: #E56B6F;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#getstarted-btn:hover {
+    color: #355070;
+    background-color: #E56B6F;
+    cursor: pointer;
 }
 
 /* membership page & price row*/
@@ -146,44 +169,56 @@ nav {
     color: #E56B6F;
     font-size: 46px;
     text-align: center;
-    padding: 50px;
+    
+}
+
+#member-header p {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px;
 }
 
 .column {
-    width: 20%;
-    height: 455px;
-    display: inline-block;
-    border-radius: 20px;
-    background-color: #769ABE;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #fff;
 }
-
-
 
 .column h3 {
     text-align: center;
-    margin-top: 10px;
+    padding-top: 10px;
     font-size: 30px;
     letter-spacing: 2px;
     color: #E56B6F;   
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
-.column img {
-    width: 100%;
-    margin-top: 5px;
+.column p {
+    text-transform: uppercase;
 }
 
 .price-row {
-    height: 500px;
-    width: 90%;
-    margin-left: 75px;
+    width: 100%;
     background-color: transparent;
 }
 
-.included-list {
+.column li {
     margin-left: 25px;
-    color: #E56B6F;
+    color: #ffffff;
     line-height: 1em;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .member-btn {
@@ -196,12 +231,50 @@ nav {
     border-radius: 6px;
     transition: 0.3s;
     font-weight: bold;
-    margin-left: 87px;
-    margin-top: 25px;
+    vertical-align: middle;
 }
 
 .member-btn:hover {
     cursor: pointer;
     background-color: #E56B6F;
     color: #355070;
+}
+
+/* about us */
+
+#about-container {
+    width: 100%;
+}
+
+#about-container h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #E56B6F;
+    font-size: 46px;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100px;
+}
+
+.socials li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 200%;
+    color: rgba(255, 255, 255, 0.596);
+    margin-right: 23px;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 19px;
+    text-align: left;
 }
