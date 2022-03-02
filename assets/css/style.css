@@ -116,7 +116,7 @@ nav {
     width: 80%;
     padding-left: 105px;
     padding-top: 50px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 #home-header {
@@ -253,7 +253,7 @@ nav {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    padding: 50px;
+    padding-top: 50px;
     background-color: rgba(53,80,112,0.5);
 }
 
@@ -262,6 +262,10 @@ nav {
     letter-spacing: 2px;
     color: rgba(229,107,111,1);
     font-size: 46px;
+}
+
+.about-header p {
+    padding: 20px 0 30px;
 }
 
 .ourteam-column {
@@ -322,9 +326,57 @@ nav {
     width: 100%;
 }
 
-.contact-form {
-    
+.contact-container h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #E56B6F;
+    font-size: 46px;
+    text-align: center;
 }
+
+.contact-form {
+    display: grid;
+    margin: 75px 100px 100px 100px;
+    place-items: center;
+}
+
+.contact-form label {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 120%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#class-list, input[type="text"], input[type="email"], textarea {
+    margin: 10px 0 20px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 100%;
+    color: #fff;
+    padding: 12px;
+    border: 0px;
+}
+
+#class-list option {
+    background-color: #5e728a;
+}
+
+option:disabled {
+    color: #E56B6F;
+    text-transform: uppercase;
+}
+
+#message {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+::placeholder {
+    color: rgba(229,107,111,0.4);
+}
+
+
 
 /* footer */
 

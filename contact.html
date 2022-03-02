@@ -7,14 +7,14 @@
     <meta name="description" content="Liftness | Gym, spa and restaurant | Find us in Dublin, Belfast and Cork.">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/d629ec4993.js" crossorigin="anonymous"></script>
-    <title>Liftness</title>
+    <title>Liftness | Contact</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
                 <h1><a href="index.html" id="logo-link">Liftness</a></h1>
-                <p>Gym classes</p>
+                <p>Stockholm</p>
             </div>
             <ul id="nav-bar">
                 <li>
@@ -27,8 +27,8 @@
                     <a href="#aboutus">About us</a>
                 </li>
                 <li>
-                    <form action="https://google.com/" id="signup-form">
-                        <input type="submit" value="book here" id="contact-btn">
+                    <form id="signup-form">
+                        <input type="submit" value="book here" id="contact-btn" >
                     </form>
                 </li>
             </ul>
@@ -37,15 +37,20 @@
     <section>
         <div class="contact-container">
             <div>
+                <h2>Contact</h2>
                 <form action="post" class="contact-form">
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="first_name" placeholder="Your name...">
+                    <input type="text" id="fname" name="first_name" placeholder="Your name..." required>
 
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="last_name" placeholder="Your last name...">
+                    <input type="text" id="lname" name="last_name" placeholder="Your last name..." required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address" required>
 
                     <label for="class-list">Class</label>
-                    <select id="class-list" name="class_list">
+                    <select id="class-list" name="class_list" required>
+                        <option value="" disabled selected>Select class</option>
                         <option value="bodybalance">Bodybalance</option>
                         <option value="hiit">HIIT</option>
                         <option value="cycling">Cycling</option>
@@ -54,7 +59,7 @@
                     </select>
 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                    <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
 
                     <input type="submit" value="Submit" id="contact-btn">
 
