@@ -316,6 +316,16 @@ nav {
     cursor: pointer;
 }
 
+/* contact page */
+
+.contact-container {
+    width: 100%;
+}
+
+.contact-form {
+
+}
+
 /* footer */
 
 footer {

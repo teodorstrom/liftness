@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Liftness | Gym, spa and restaurant | Find us in Dublin, Belfast and Cork.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/d629ec4993.js" crossorigin="anonymous"></script>
+    <title>Liftness</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="index.html" id="logo-link">Liftness</a></h1>
+                <p>Gym classes</p>
+            </div>
+            <ul id="nav-bar">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#member-header">Classes</a>
+                </li>
+                <li>
+                    <a href="#aboutus">About us</a>
+                </li>
+                <li>
+                    <form action="https://google.com/" id="signup-form">
+                        <input type="submit" value="book here" id="contact-btn">
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="contact-container">
+            <div>
+                <form action="post" class="contact-form">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first_name" placeholder="Your name...">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="last_name" placeholder="Your last name...">
+
+                    <label for="class-list">Class</label>
+                    <select id="class-list" name="class_list">
+                        <option value="bodybalance">Bodybalance</option>
+                        <option value="hiit">HIIT</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="kickboxing">Kickboxing</option>
+                        <option value="bodyattack">Bodyattack</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit" id="contact-btn">
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3>Find us on social media</h3>
+            <ul class="socials">
+                <li>
+                    <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a> 
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
