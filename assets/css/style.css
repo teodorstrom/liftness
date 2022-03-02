@@ -9,6 +9,10 @@ body {
     background: linear-gradient(135deg, rgba(53,80,112,1) 0%, rgba(53,80,112,1) 36%, rgba(229,107,111,1) 100%);
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 /* navbar and logo */
 
 nav {
@@ -159,7 +163,6 @@ nav {
 
 #membership-container {
     width: 100%;
-    margin-bottom: 80px;
     overflow: hidden;
 }
 
@@ -242,23 +245,87 @@ nav {
 
 /* about us */
 
-#about-container {
+.about-section {
     width: 100%;
 }
 
-#about-container h2 {
+.about-header {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 50px;
+    background-color: rgba(53,80,112,0.5);
+}
+
+.about-header h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #E56B6F;
+    color: rgba(229,107,111,1);
     font-size: 46px;
+}
+
+.ourteam-column {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding: 0 px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.card-container::after , .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card-container p {
+    line-height: 2em;
     text-align: center;
+
+}
+
+.card-container h2 {
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.job-title {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.contacts-btn {
+    background-color: transparent;
+    border: 1px solid #355070;
+    width: 100px;
+    height: 35px;
+    color: #355070;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+    margin: 3px 0 10px;
+}
+
+.contacts-btn:hover {
+    color: #E56B6F;
+    background-color: #355070;
+    cursor: pointer;
 }
 
 /* footer */
 
 footer {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100px;
+}
+
+.socials {
+    text-align: center;
+    margin: 0 10px 0 10px;
 }
 
 .socials li {
@@ -268,7 +335,7 @@ footer {
 .socials i {
     font-size: 200%;
     color: rgba(255, 255, 255, 0.596);
-    margin-right: 23px;
+    padding: 20px;
 }
 
 footer h3 {
@@ -276,5 +343,14 @@ footer h3 {
     letter-spacing: 2px;
     color: #ffffff;
     font-size: 19px;
-    text-align: left;
+    text-align: center;
 }
+
+
+/* media queries */
+@media screen and (max-width: 650px) {
+    .ourteam-column {
+      width: 100%;
+      display: block;
+    }
+  }
