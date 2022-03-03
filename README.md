@@ -5,7 +5,7 @@ The users of this website will find core information about who we are and what w
 
 ![Screenshot](/assets/images/responsiveshot.png)
 
-#Features
+# Features
 
-    *Navigation
-        -Featured on the top of the page.
+    * Navigation
+        * Featured on the top of the page.
