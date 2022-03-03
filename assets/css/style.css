@@ -106,17 +106,9 @@ nav {
 }
 
 #home-image {
-    width: 50%;
-    height: 500px;
-    float: left;
-    border-radius: 20%;
-}
-
-#home-image img {
-    width: 80%;
-    padding-left: 105px;
-    padding-top: 50px;
-    border-radius: 50px;
+    width: 100%;
+    height: 600px;
+    background: url('../images/55.jpg') no-repeat center center;
 }
 
 #home-header {
