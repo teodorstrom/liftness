@@ -4,3 +4,8 @@ The Liftness Stockholm website is a landing page for people over 18 years old wh
 The users of this website will find core information about who we are and what we are doing on our "Classes" and "About us" section. There is a contact / booking page available for interests.
 
 ![Screenshot](/assets/images/responsiveshot.png)
+
+#Features
+
+    *Navigation
+        -Featured on the top of the page.
