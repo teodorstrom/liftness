@@ -51,23 +51,24 @@ nav {
     display: inline-block;
 }
 
-#contact-btn {
+.contact-btn {
     background-color: transparent;
-    border: 1px solid #E56B6F;
+    border: 1px solid #355070;
     font-size: 85%;
     width: 100px;
     height: 35px;
-    color: #E56B6F;
+    color: #355070;
     text-transform: uppercase;
     border-radius: 6px;
     transition: 0.3s;
     font-weight: bold;
 }
 
-#contact-btn:hover {
+.contact-btn:hover {
     color: #355070;
     background-color: #E56B6F;
     cursor: pointer;
+    border: 0px;
 }
 
 .logo {
@@ -278,7 +279,7 @@ nav {
     float: left;
     width: 33.33%;
     margin-bottom: 16px;
-    padding: 0 px;
+    padding: 0px;
 }
 
 .card {
@@ -313,10 +314,10 @@ nav {
 
 .contacts-btn {
     background-color: transparent;
-    border: 1px solid #355070;
+    border: 1px solid #E56B6F;
     width: 100px;
     height: 35px;
-    color: #355070;
+    color: #E56B6F;
     text-transform: uppercase;
     border-radius: 6px;
     transition: 0.3s;
@@ -325,8 +326,8 @@ nav {
 }
 
 .contacts-btn:hover {
-    color: #E56B6F;
-    background-color: #355070;
+    color:#355070;
+    background-color: #E56B6F;
     cursor: pointer;
 }
 
