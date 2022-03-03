@@ -8,7 +8,7 @@ The users of this website will find core information about who we are and what w
 ## Features
 * Navigation
     * Featured at the top of the page. Logo is placed on the left side which also is clickable and refers to the top homepage.
-    * The other links are placed to the right of the navigation bar with a "contact" button.
+    * The other links are placed to the right of the navigation bar with a "book here" button.
 ![Screenshot](/assets/images/navbarshot.png)
 
 * Header section
@@ -27,7 +27,7 @@ The users of this website will find core information about who we are and what w
 ![Screenshot](/assets/images/aboutshot.png)
 
 * Footer section
-    * Three icons that sends the user to Liftness social medias such as Twitter, Facebook and Youtube. The links are refering to Google at the moment.
+    * Three icons that sends the user to Liftness social medias such as Twitter, Facebook and Youtube. The links are refering to the respective icon's homepage at the moment.
 ![Screenshot](/assets/images/footershot.png)
 
 * Contact section
