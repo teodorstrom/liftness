@@ -1,2 +1,2 @@
-# liftness
-A website for a local gym
+# Liftness Stockholm
+The liftness
